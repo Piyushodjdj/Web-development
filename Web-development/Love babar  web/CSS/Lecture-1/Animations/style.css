@@ -1,0 +1,33 @@
+.container
+{
+    width: 1200px;
+    height: 600px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.box
+{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 2px solid black;
+    margin: 20px;
+
+/* transition-duration: 3s;
+transition-property: background-color; */
+transition:transform;
+transition-duration: 3s;
+transition-timing-function: ease;
+transition-delay: 1s;
+
+
+}
+
+
+.box:hover
+{
+    background-color: darkblue;
+    
+    transform: translateX(600px) rotate(360deg);
+}

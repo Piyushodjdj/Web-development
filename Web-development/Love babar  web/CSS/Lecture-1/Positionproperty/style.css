@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent
+{
+    width: 500px;
+    height: 500px;
+    margin: 100px auto ;
+    background-color: red;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.one
+{
+    position: absolute;
+    top: 0;
+
+}
+.two
+{
+    position: absolute;
+    bottom: 0;
+}
+.three
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.four
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.five
+{
+    position: absolute;
+    margin: 250px;
+    box-sizing: border-box;
+}

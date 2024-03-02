@@ -1,0 +1,19 @@
+/* .parent
+{
+    width: 500px;
+    background-color: blue;
+    height: 200px;
+    position: relative;
+
+}
+.child
+{
+    width: 10%;
+    height: 10%;
+    background-color: brown;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+
+} */
